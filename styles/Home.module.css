@@ -1,11 +1,13 @@
 .main {
-  display: flex;
-  
-  justify-content: center;
+  /* display: flex;
+  fle
+  justify-content: center; */
+  width: 80%;
   gap: 2rem;
   align-items: flex-start;
   padding: 3rem;
   min-height: 100vh;
+  margin: auto auto;
 }
 
 .description {
@@ -336,9 +338,15 @@
   font-size: 30px;
 }
 
-.btn_d{
-  color: red !important;
-  border: 1px solid red ;
-  width: 600px;
-  height: 1000px;
+.btn_dispatch{
+ 
+  background-color: orange;
+  color: white;
+  width: 200px;
+  height: 100px;
+}
+
+.heading{
+  color:yellow ;
+  padding: 1rem;
 }
