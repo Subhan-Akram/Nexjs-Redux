@@ -2,13 +2,11 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
-import {useDispatch} from "@reduxjs/toolkit"
-// import {iconAction} from "../store/slice-reducer/iconSlice"
-// import {iconAction} from "../store/store"
+
 
 import { useRouter } from 'next/router'
 function Home() {
-  const dispatch=useDispatch();
+
 
   return (
     <main className={styles.main}>
